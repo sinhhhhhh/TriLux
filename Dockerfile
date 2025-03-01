@@ -4,6 +4,7 @@ WORKDIR /app
 COPY ReactApp/package*.json ./
 RUN npm install
 COPY ReactApp/ ./
+RUN npm list webpack || npm install --save-dev webpack webpack-cli
 RUN npx webpack --mode development
 
 # Stage 2: Build .NET application
