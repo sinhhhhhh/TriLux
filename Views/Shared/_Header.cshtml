@@ -1,0 +1,18 @@
+<nav class="nav container">
+    <div class="nav__data">
+        <a class="nav__logo" asp-controller="Home" asp-action="Index">
+            <i class="ri-building-2-line"></i>TRILUX
+        </a>
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="ri-menu-line nav__burger"></i>
+            <i class="ri-arrow-down-s-line nav__close"></i>
+        </div>
+        @if (User.Identity != null && User.Identity.IsAuthenticated)
+        {
+            <form asp-controller="Account" class="logout__form" asp-action="Logout" method="post">
+                &emsp;<button type="submit">Đăng xuất</button>
+            </form>
+        }
+    </div>
+    <partial name="_Menu" />
+</nav>

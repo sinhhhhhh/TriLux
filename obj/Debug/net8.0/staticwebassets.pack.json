@@ -1,0 +1,513 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\TriLux\\App\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\App.bundle.scp.css",
+      "PackagePath": "staticwebassets\\App.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\04d24de8-be57-4b87-b279-a664e29f748e.png",
+      "PackagePath": "staticwebassets\\avatars\\04d24de8-be57-4b87-b279-a664e29f748e.png"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\1870ff8b-7d10-4b29-8cb0-0510260d8be9.jpg",
+      "PackagePath": "staticwebassets\\avatars\\1870ff8b-7d10-4b29-8cb0-0510260d8be9.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\1db7e6b6-1cb7-4e1e-b2b6-f5d7608f83b4.jpg",
+      "PackagePath": "staticwebassets\\avatars\\1db7e6b6-1cb7-4e1e-b2b6-f5d7608f83b4.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\2896704d-ea97-4e4a-94c4-f2eceef3fb03.jpg",
+      "PackagePath": "staticwebassets\\avatars\\2896704d-ea97-4e4a-94c4-f2eceef3fb03.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\2a494a9c-d1d9-4895-9311-d3b49221a010.jpg",
+      "PackagePath": "staticwebassets\\avatars\\2a494a9c-d1d9-4895-9311-d3b49221a010.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\3284afc6-62a0-4d24-86cf-044b8e1f0be1.jpg",
+      "PackagePath": "staticwebassets\\avatars\\3284afc6-62a0-4d24-86cf-044b8e1f0be1.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\35b9fa2f-0e79-4227-a8f8-4bc51aaa4658.png",
+      "PackagePath": "staticwebassets\\avatars\\35b9fa2f-0e79-4227-a8f8-4bc51aaa4658.png"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\3b5a4e71-6969-4b16-a3f6-e562664fb9ce.jpg",
+      "PackagePath": "staticwebassets\\avatars\\3b5a4e71-6969-4b16-a3f6-e562664fb9ce.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\3faed2f5-f9df-49b0-84ec-a5e291d6db1c.jfif",
+      "PackagePath": "staticwebassets\\avatars\\3faed2f5-f9df-49b0-84ec-a5e291d6db1c.jfif"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\4161ca45-c246-4699-813d-27f176fa2ee6.jpg",
+      "PackagePath": "staticwebassets\\avatars\\4161ca45-c246-4699-813d-27f176fa2ee6.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\56080dad-122a-43dd-bee7-815eb8237fa3.jpg",
+      "PackagePath": "staticwebassets\\avatars\\56080dad-122a-43dd-bee7-815eb8237fa3.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\59218b51-5757-4d40-b3ba-2ba05cc00b85.jpg",
+      "PackagePath": "staticwebassets\\avatars\\59218b51-5757-4d40-b3ba-2ba05cc00b85.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\5a9916d3-0d7c-4bf1-8c29-7ae0198cc67b.jpg",
+      "PackagePath": "staticwebassets\\avatars\\5a9916d3-0d7c-4bf1-8c29-7ae0198cc67b.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\61c95416-f86b-4296-adff-6a9f32e3011f.jpg",
+      "PackagePath": "staticwebassets\\avatars\\61c95416-f86b-4296-adff-6a9f32e3011f.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\64151276-680c-487f-9577-6195f759932d.png",
+      "PackagePath": "staticwebassets\\avatars\\64151276-680c-487f-9577-6195f759932d.png"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\6513633c-eaa4-4272-b310-65c580b140ec.jpg",
+      "PackagePath": "staticwebassets\\avatars\\6513633c-eaa4-4272-b310-65c580b140ec.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\66134825-7cf9-4fcf-b2af-e11d24b2f018.png",
+      "PackagePath": "staticwebassets\\avatars\\66134825-7cf9-4fcf-b2af-e11d24b2f018.png"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\729d8145-cdd0-455b-a7d0-ba888f70bb6e.jpg",
+      "PackagePath": "staticwebassets\\avatars\\729d8145-cdd0-455b-a7d0-ba888f70bb6e.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\73db1000-3a9f-4eeb-a125-86dac763d6c0.jpg",
+      "PackagePath": "staticwebassets\\avatars\\73db1000-3a9f-4eeb-a125-86dac763d6c0.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\749b2e28-837b-4ecd-89ed-68805cc1ec13.jpg",
+      "PackagePath": "staticwebassets\\avatars\\749b2e28-837b-4ecd-89ed-68805cc1ec13.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\804e6849-54c9-4bb9-9888-20d137fe643b.png",
+      "PackagePath": "staticwebassets\\avatars\\804e6849-54c9-4bb9-9888-20d137fe643b.png"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\823eef22-681c-4e95-8854-243154e4c77e.jpg",
+      "PackagePath": "staticwebassets\\avatars\\823eef22-681c-4e95-8854-243154e4c77e.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\8415950f-101e-44e7-8bb0-817e60122911.jpg",
+      "PackagePath": "staticwebassets\\avatars\\8415950f-101e-44e7-8bb0-817e60122911.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\94d25e85-e71a-4992-8c5d-38a7a906ab2b.jpg",
+      "PackagePath": "staticwebassets\\avatars\\94d25e85-e71a-4992-8c5d-38a7a906ab2b.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\9ab33cc6-80c6-4e07-81db-bd4fb277b390.png",
+      "PackagePath": "staticwebassets\\avatars\\9ab33cc6-80c6-4e07-81db-bd4fb277b390.png"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\a7c69336-1c71-46cc-a8b4-0c725fdfc918.png",
+      "PackagePath": "staticwebassets\\avatars\\a7c69336-1c71-46cc-a8b4-0c725fdfc918.png"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\aed5b6a8-5593-42cd-b025-918f50938137.jpg",
+      "PackagePath": "staticwebassets\\avatars\\aed5b6a8-5593-42cd-b025-918f50938137.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\b25084cb-dd64-4533-911d-1ed4075498b6.jpg",
+      "PackagePath": "staticwebassets\\avatars\\b25084cb-dd64-4533-911d-1ed4075498b6.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\bb3eeab3-5f65-4b7c-ad5e-aa3a3f3b0b35.png",
+      "PackagePath": "staticwebassets\\avatars\\bb3eeab3-5f65-4b7c-ad5e-aa3a3f3b0b35.png"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\be291ece-c5d8-443c-a829-8c7370a02521.jpg",
+      "PackagePath": "staticwebassets\\avatars\\be291ece-c5d8-443c-a829-8c7370a02521.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\c5867f8f-d368-49ad-9e11-dad1775fc8c7.jpg",
+      "PackagePath": "staticwebassets\\avatars\\c5867f8f-d368-49ad-9e11-dad1775fc8c7.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\cbdacb16-d9c5-49b6-b1ce-4a3b9602280e.jpg",
+      "PackagePath": "staticwebassets\\avatars\\cbdacb16-d9c5-49b6-b1ce-4a3b9602280e.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\cfb3c230-bbe7-4bcd-99e3-70eea73f379b.jpg",
+      "PackagePath": "staticwebassets\\avatars\\cfb3c230-bbe7-4bcd-99e3-70eea73f379b.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\d1f9d5ee-ad4a-4797-8863-158b24df2f6c.jpg",
+      "PackagePath": "staticwebassets\\avatars\\d1f9d5ee-ad4a-4797-8863-158b24df2f6c.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\d585ee28-9917-47d5-b747-6c6e387c7b20.jpg",
+      "PackagePath": "staticwebassets\\avatars\\d585ee28-9917-47d5-b747-6c6e387c7b20.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\d5b917c9-6720-41b1-bf66-aa72c7f4ef98.jpg",
+      "PackagePath": "staticwebassets\\avatars\\d5b917c9-6720-41b1-bf66-aa72c7f4ef98.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\d610d025-03aa-4765-b21b-0d6032156ef2.jpg",
+      "PackagePath": "staticwebassets\\avatars\\d610d025-03aa-4765-b21b-0d6032156ef2.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\dc5cc730-eb8a-46e2-b906-c5304b8e6456.jpg",
+      "PackagePath": "staticwebassets\\avatars\\dc5cc730-eb8a-46e2-b906-c5304b8e6456.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\e0c09a6e-0bdc-4f08-8451-1a8ce1969292.jpg",
+      "PackagePath": "staticwebassets\\avatars\\e0c09a6e-0bdc-4f08-8451-1a8ce1969292.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\e387d3d7-7b32-4b2d-ae6c-688e9b1139a2.jpg",
+      "PackagePath": "staticwebassets\\avatars\\e387d3d7-7b32-4b2d-ae6c-688e9b1139a2.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\e3c85c7b-7763-4cb6-8837-e1d31206a976.jpg",
+      "PackagePath": "staticwebassets\\avatars\\e3c85c7b-7763-4cb6-8837-e1d31206a976.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\ed3cbcce-5649-4e2b-b70c-4d94108abb01.jpg",
+      "PackagePath": "staticwebassets\\avatars\\ed3cbcce-5649-4e2b-b70c-4d94108abb01.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\f344ccf8-246e-42bf-b072-517e859af16a.jpg",
+      "PackagePath": "staticwebassets\\avatars\\f344ccf8-246e-42bf-b072-517e859af16a.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\f55ec043-58cc-4057-800d-8ee4ac85465b.jpg",
+      "PackagePath": "staticwebassets\\avatars\\f55ec043-58cc-4057-800d-8ee4ac85465b.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\avatars\\f6776955-1e3c-4db3-88f5-42d665bcb4a7.jpg",
+      "PackagePath": "staticwebassets\\avatars\\f6776955-1e3c-4db3-88f5-42d665bcb4a7.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\css\\blog.css",
+      "PackagePath": "staticwebassets\\css\\blog.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\css\\footer.css",
+      "PackagePath": "staticwebassets\\css\\footer.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\css\\introduce.css",
+      "PackagePath": "staticwebassets\\css\\introduce.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\css\\service.css",
+      "PackagePath": "staticwebassets\\css\\service.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\css\\swiper-slide.css",
+      "PackagePath": "staticwebassets\\css\\swiper-slide.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\fonts\\Montserrat-Italic-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-Italic-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\fonts\\Montserrat-VariableFont_wght.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat-VariableFont_wght.ttf"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\images\\aboutimage.jpg",
+      "PackagePath": "staticwebassets\\images\\aboutimage.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\images\\aboutimage1.jpg",
+      "PackagePath": "staticwebassets\\images\\aboutimage1.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\images\\logo1.png",
+      "PackagePath": "staticwebassets\\images\\logo1.png"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\images\\logo3.png",
+      "PackagePath": "staticwebassets\\images\\logo3.png"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\images\\logo4.png",
+      "PackagePath": "staticwebassets\\images\\logo4.png"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\images\\slider1.jpg",
+      "PackagePath": "staticwebassets\\images\\slider1.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\images\\slider2.jpg",
+      "PackagePath": "staticwebassets\\images\\slider2.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\images\\slider3.jpg",
+      "PackagePath": "staticwebassets\\images\\slider3.jpg"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\js\\bundle.js",
+      "PackagePath": "staticwebassets\\js\\bundle.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\TriLux\\App\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.App.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.App.props",
+      "PackagePath": "build\\App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.App.props",
+      "PackagePath": "buildMultiTargeting\\App.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.App.props",
+      "PackagePath": "buildTransitive\\App.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

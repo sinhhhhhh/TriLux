@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),
+  }
+  /*=============== VARIABLES CSS ===============*/
+  :root {
+    --header-height: 3.5rem;
+  
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --black-color: hsl(220, 24%, 12%);
+    --black-color-light: hsl(220, 24%, 15%);
+    --black-color-lighten: hsl(220, 20%, 18%);
+    --white-color: #fff;
+    --body-color: hsl(220, 100%, 97%);
+  
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: "Montserrat", sans-serif;
+    --normal-font-size: .938rem;
+  
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-semi-bold: 600;
+  
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+  }
+
+  .blog__content__container{
+    max-width: 900px; 
+    margin: 30px auto; 
+    padding: 20px; 
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+  }
+  .blog__content__container h2{
+    text-align: center; 
+    font-size: 28px; 
+    font-weight: bold; 
+    margin-bottom: 20px; 
+  }
+
+  .blog__content__container img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin: 10px auto; 
+  }
+  .blog__list__container {
+    display: flex;
+    flex-direction: column; /* Hiển thị blog và button theo chiều dọc */
+    align-items: flex-start; /* Căn trái nội dung */
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .blog__list__container .btn {
+    align-self: flex-end; /* Đưa button sang phải */
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  

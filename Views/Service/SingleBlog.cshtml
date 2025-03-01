@@ -1,0 +1,44 @@
+@{
+    ViewData["Title"] = "Single Blog";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/introduce.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/blog.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/swiper-slide.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/service.css" asp-append-version="true" />
+}
+
+<div id="react-slider"></div>
+<div class="blog__content__container">
+    <div id="single-blog-container" data-blog-id="@Model.Id"></div>
+</div>
+
+<div class="blog__list__container">
+    <div id="blog-landscaping-list" data-blog-limit=3></div>
+    <a asp-controller="Service" asp-action="Lanscaping" class="btn">More</a>
+</div>
+
+
+<div class="blog__list__container">
+    <div id="blog-homerenovation-list" data-blog-limit=3></div>
+    <a asp-controller="Service" asp-action="HomeRenovation" class="btn">More</a>
+</div>
+
+
+
+<div class="blog__list__container">
+    <div id="blog-staging-list" data-blog-limit=3></div>
+    <a asp-controller="Service" asp-action="Staging" class="btn">More</a>
+</div>
+
+
+<div class="blog__list__container">
+    <div id="blog-cleaning-list" data-blog-limit=3></div>
+    <a asp-controller="Service" asp-action="Cleaning" class="btn">More</a>
+</div>
+
+
+<div class="blog__list__container">
+    <div id="blog-propertymaintenance-list" data-blog-limit=3></div>
+    <a asp-controller="Service" asp-action="PropertyMaintenance" class="btn">More</a>
+</div>

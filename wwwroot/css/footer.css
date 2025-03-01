@@ -1,0 +1,101 @@
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-VariableFont_wght.ttf') format('truetype'),
+  }
+  /*=============== VARIABLES CSS ===============*/
+  :root {
+    --header-height: 3.5rem;
+  
+    /*========== Colors ==========*/
+    /*Color mode HSL(hue, saturation, lightness)*/
+    --black-color: hsl(220, 24%, 12%);
+    --black-color-light: hsl(220, 24%, 15%);
+    --black-color-lighten: hsl(220, 20%, 18%);
+    --white-color: #fff;
+    --body-color: hsl(220, 100%, 97%);
+  
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: "Montserrat", sans-serif;
+    --normal-font-size: .938rem;
+  
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-semi-bold: 600;
+  
+    /*========== z index ==========*/
+    --z-tooltip: 10;
+    --z-fixed: 100;
+  }
+
+footer{
+    padding: 80px 13% 70px;
+}
+.footer__container{
+    font-family: var(--body-font);
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,auto));
+    gap: 3.5rem;
+    background-color: var(--black-color);
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.footer__content h4{
+    color: #fff;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+.footer__content li{
+    margin-bottom: 16px;
+}
+.footer__content li a{
+    display:block;
+    color: #d6d6d6;
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .04s ease;
+}
+.footer__content li a:hover{
+    transform: translateY(-3px) translateX(-5px);
+    color: var(--white-color);
+}
+.footer__content{
+    color:#d6d6d6;
+    font-size: 16px;
+    line-height: 30px;
+    margin:20px;
+}
+.icons a {
+    display: inline-block;
+    font-size:22px;
+    color: #d6d6d6;
+    margin-right:17px;
+    transition: all .40s ease;
+}
+.icons a:hover{
+    color: var(--white-color);
+    transform:  translateY(-5px);
+}
+@media (max-width:1690px){
+    footer{
+        padding: 50px 5% 40px;
+    }
+}
+@media (max-width:1120px){
+    .footer__container{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px,auto));
+    gap: 2rem;
+    }
+}
+@media (max-width:700px){
+    .footer__container{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px,auto));
+    gap: 2.5rem;
+    }
+}

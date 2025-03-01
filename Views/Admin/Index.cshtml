@@ -1,0 +1,10 @@
+@{
+    ViewData["Title"] = "Quản lý Blog";
+}
+@section Styles {
+    <link rel="stylesheet" href="~/css/admin.css" asp-append-version="true" />
+}
+<div class="blog__manger__container">
+    <a asp-controller="Admin" asp-action="Create" class="btn">Tạo Blog</a>
+    <div id="show-blog-container"></div>
+</div>

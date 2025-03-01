@@ -1,0 +1,57 @@
+<!-- NAV MENU-->
+<div class="nav__menu" id="nav-menu">
+    <ul class="nav__list">
+        <li><a class="nav__link" asp-controller="Home" asp-action="Index">HOME</a></li>
+
+        <li><a class="nav__link" asp-controller="Home" asp-action="About">ABOUT</a></li>
+
+        <!-- DROPDOWN 1-->
+        <li class="dropdown__item">
+            <div class="nav__link">
+                SERVICE<i class="ri-arrow-down-wide-line dropdown__arrow"></i>
+            </div>
+
+            <ul class="dropdown__menu">
+                <li>
+                    <a asp-controller="Service" asp-action="Landscaping" class="dropdown__link">
+                        <i class="ri-building-2-line"></i> LANDSCAPING
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Service" asp-action="HomeRenovation" class="dropdown__link">
+                        <i class="ri-home-4-line"></i> HOME RENOVATION
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Service" asp-action="Staging" class="dropdown__link">
+                        <i class="ri-stack-line"></i> STAGING
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Service" asp-action="Cleaning" class="dropdown__link">
+                        <i class="ri-paint-brush-line"></i> CLEANING
+                    </a>
+                </li>
+
+                <li>
+                    <a asp-controller="Service" asp-action="PropertyMaintenance" class="dropdown__link">
+                        <i class="ri-hammer-line"></i> PROPERTY MAINTENANCE
+                    </a>
+                </li>
+                @* 
+                <li>
+                    <a href="#" class="dropdown__link">
+                        <i class="ri-arrow-up-down-line"></i> MORE
+                    </a>
+                </li> *@
+            </ul>
+        </li>
+
+        <li><a class="nav__link" asp-controller="Home" asp-action="News">NEWS</a></li>
+
+        <li><a class="nav__link" asp-controller="Home" asp-action="Contact">CONTACT</a></li>
+    </ul>
+</div>
