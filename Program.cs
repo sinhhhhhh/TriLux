@@ -4,13 +4,28 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
+var certPath = "/app/ssl/https.crt";
+var keyPath = "/app/ssl/https.key";
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
-builder.WebHost.UseUrls("http://*:8080", "https://*:8443");
+builder.WebHost.ConfigureKestrel(options =>
+{
+    options.ListenAnyIP(8080); // HTTP
+    if (File.Exists(certPath) && File.Exists(keyPath))
+    {
+        options.ListenAnyIP(8443, listenOptions =>
+        {
+            listenOptions.UseHttps(certPath, keyPath);
+        });
+    }
+    else
+    {
+        Console.WriteLine("⚠️ Không tìm thấy chứng chỉ SSL! Ứng dụng chỉ chạy HTTP.");
+    }
+});
 
 builder.Services.AddDbContext<AppDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
