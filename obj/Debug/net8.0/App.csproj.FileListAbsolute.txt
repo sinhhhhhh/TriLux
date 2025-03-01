@@ -300,3 +300,4 @@ D:\TriLux\App\obj\Debug\net8.0\App.genruntimeconfig.cache
 D:\TriLux\App\obj\Debug\net8.0\ref\App.dll
 D:\TriLux\App\bin\Debug\net8.0\ReactApp\package.json
 D:\TriLux\App\bin\Debug\net8.0\ReactApp\package-lock.json
+D:\TriLux\App\obj\Debug\net8.0\App.sourcelink.json
