@@ -6,7 +6,6 @@ services:
     container_name: trilux-app
     ports:
       - "8080:8080"
-      - "8443:8443"
     volumes:
       - /root/TriLux/ssl:/app/ssl
     depends_on:
