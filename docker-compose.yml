@@ -7,6 +7,8 @@ services:
     ports:
       - "5000:5000"
       - "5001:5001"
+    volumes:
+      - ./ssl:/app/ssl
     depends_on:
       - sqlserver
     environment:
