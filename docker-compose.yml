@@ -26,6 +26,11 @@ services:
       MSSQL_MEMORY_LIMIT_MB: "512" 
     volumes:
       - sql_data:/var/opt/mssql
+    healthcheck:
+      test: ["CMD", "/opt/mssql-tools/bin/sqlcmd", "-S", "localhost", "-U", "SA", "-P", "Password123", "-Q", "SELECT 1"]
+      interval: 10s
+      retries: 5
+      start_period: 30s
 
 volumes:
   sql_data:
