@@ -2,20 +2,17 @@
 FROM node:18 AS frontend
 WORKDIR /app/ReactApp
 
+# Copy toàn bộ source code của ReactApp trước
+COPY ReactApp/ /app/ReactApp/
+
 # Copy package.json trước để cache dependencies
 COPY ReactApp/package*.json ./
 
 # Cài đặt dependencies
 RUN npm install
 
-# Chạy Webpack build (sửa lỗi Permission Denied)
-RUN chmod +x node_modules/.bin/webpack && npx webpack --mode development
-
-# Copy toàn bộ source code của ReactApp
-COPY ReactApp/ /app/ReactApp/
-
-# Build React app
-RUN npx webpack --mode production
+# Chạy Webpack build
+RUN chmod +x node_modules/.bin/webpack && npx webpack --mode production
 
 # Stage 2: Build .NET application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
@@ -35,7 +32,7 @@ WORKDIR /app
 # Copy từ stage build
 COPY --from=build /app/publish .
 
-# Copy React build vào wwwroot (sửa lỗi alias `react-build`)
+# Copy React build vào wwwroot
 COPY --from=frontend /app/ReactApp/dist ./wwwroot
 
 # Chạy ứng dụng
