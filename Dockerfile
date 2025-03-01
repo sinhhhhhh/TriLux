@@ -2,17 +2,20 @@
 FROM node:18 AS frontend
 WORKDIR /app/ReactApp
 
+# Copy toàn bộ source code của ReactApp
+COPY ReactApp/ ./
+
 # Copy package.json trước để tối ưu cache
 COPY ReactApp/package*.json ./
 
 # Cài đặt dependencies và đảm bảo node_modules tồn tại
-RUN npm install && mkdir -p node_modules && ls -la node_modules
+RUN npm install && npm install --save-dev webpack webpack-cli && ls -la node_modules
 
-# Copy toàn bộ source code của ReactApp
-COPY ReactApp/ ./
+# Cấp quyền thực thi cho Webpack
+RUN chmod +x node_modules/.bin/webpack
 
 # Kiểm tra lại node_modules trước khi chạy Webpack
-RUN ls -la node_modules && npx webpack --mode production
+RUN ls -la node_modules/.bin/webpack && npx webpack --mode production
 
 # Stage 2: Build .NET application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
