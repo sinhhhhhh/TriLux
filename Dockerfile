@@ -33,7 +33,7 @@ WORKDIR /app
 COPY --from=build /app/publish .
 
 # Copy React build vào wwwroot
-COPY --from=frontend /app/ReactApp/dist ./wwwroot
+COPY --from=frontend /app/ReactApp/wwwroot/js ./wwwroot/js
 
 # Chạy ứng dụng
 ENTRYPOINT ["dotnet", "App.dll"]
