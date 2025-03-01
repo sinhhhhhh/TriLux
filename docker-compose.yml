@@ -23,6 +23,7 @@ services:
     environment:
       SA_PASSWORD: "Password123"
       ACCEPT_EULA: "Y"
+      MSSQL_MEMORY_LIMIT_MB: "512" 
     volumes:
       - sql_data:/var/opt/mssql
 
