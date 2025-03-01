@@ -1,23 +1,42 @@
-# Stage 1: Build React application
-FROM node:18 AS react-build
-WORKDIR /app
+# Stage 1: Build React frontend
+FROM node:18 AS frontend
+WORKDIR /app/ReactApp
+
+# Copy package.json trước để cache dependencies
 COPY ReactApp/package*.json ./
+
+# Cài đặt dependencies
 RUN npm install
-COPY ReactApp/ ./
-RUN npm list webpack || npm install --save-dev webpack webpack-cli
-RUN npx webpack --mode development
+
+# Chạy Webpack build (sửa lỗi Permission Denied)
+RUN chmod +x node_modules/.bin/webpack && npx webpack --mode development
+
+# Copy toàn bộ source code của ReactApp
+COPY ReactApp/ /app/ReactApp/
+
+# Build React app
+RUN npx webpack --mode production
 
 # Stage 2: Build .NET application
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["App.csproj", "./"]
-RUN dotnet restore "./App.csproj"
+
+# Copy toàn bộ source code
 COPY . .
+
+# Restore và publish ứng dụng
+RUN dotnet restore "App.csproj"
 RUN dotnet publish -c Release -o /app/publish
 
-# Stage 3: Run
+# Stage 3: Run .NET app
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
+
+# Copy từ stage build
 COPY --from=build /app/publish .
-COPY --from=react-build /app/dist ./wwwroot
+
+# Copy React build vào wwwroot (sửa lỗi alias `react-build`)
+COPY --from=frontend /app/ReactApp/dist ./wwwroot
+
+# Chạy ứng dụng
 ENTRYPOINT ["dotnet", "App.dll"]
