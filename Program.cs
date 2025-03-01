@@ -41,11 +41,15 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 //config npm
-app.UseStaticFiles(new StaticFileOptions
+var nodeModulesPath = Path.Combine(Directory.GetCurrentDirectory(), "ReactApp/node_modules");
+if (Directory.Exists(nodeModulesPath))
 {
-    FileProvider = new PhysicalFileProvider(Path.Combine(Directory.GetCurrentDirectory(), "ReactApp/node_modules")),
-    RequestPath = new PathString("/vendor")
-});
+    app.UseStaticFiles(new StaticFileOptions
+    {
+        FileProvider = new PhysicalFileProvider(nodeModulesPath),
+        RequestPath = new PathString("/vendor")
+    });
+}
 //
 
 app.UseRouting();
