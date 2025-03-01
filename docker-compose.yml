@@ -1,0 +1,30 @@
+version: '3.8'
+
+services:
+  trilux-app:
+    build: .
+    container_name: trilux-app
+    ports:
+      - "5000:5000"
+      - "5001:5001"
+    depends_on:
+      - sqlserver
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ConnectionStrings__DefaultConnection=Data Source=sqlserver,1433; Initial Catalog=AppDbContext; User ID=SA;Password=Password123;Encrypt=True;TrustServerCertificate=True
+    restart: always
+
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: trilux-db
+    ports:
+      - "1433:1433"
+    environment:
+      SA_PASSWORD: "Password123"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - sql_data:/var/opt/mssql
+
+volumes:
+  sql_data:
