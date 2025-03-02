@@ -1,39 +1,22 @@
-# Stage 1: Build React frontend
-FROM node:18 AS frontend
-WORKDIR /app/ReactApp
+FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
+WORKDIR /app
+EXPOSE 80
+EXPOSE 443
 
-# Copy toàn bộ source code của ReactApp
-COPY ReactApp/ ./
-
-# Copy package.json trước để tối ưu cache
-COPY ReactApp/package*.json ./
-
-# Cài đặt dependencies và đảm bảo node_modules tồn tại
-RUN npm install && npm install --save-dev webpack webpack-cli && ls -la node_modules
-
-# Cấp quyền thực thi cho Webpack
-RUN chmod +x node_modules/.bin/webpack
-
-# Kiểm tra lại node_modules trước khi chạy Webpack
-RUN ls -la node_modules/.bin/webpack && npx webpack --mode production
-
-# Stage 2: Build .NET application
+# Use the SDK image to build the app
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-
-# Copy toàn bộ source code
-COPY . .
-
-# Restore và publish ứng dụng
+COPY ["App.csproj", "./"]
 RUN dotnet restore "App.csproj"
-RUN dotnet publish -c Release -o /app/publish
+COPY . .
+WORKDIR "/src/"
+RUN dotnet build "App.csproj" -c Release -o /app/build
 
-# Stage 3: Run .NET app
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
+FROM build AS publish
+RUN dotnet publish "App.csproj" -c Release -o /app/publish
+
+# Copy the build app to the runtime image
+FROM base AS final
 WORKDIR /app
-
-# Copy từ stage build
-COPY --from=build /app/publish .
-
-# Chạy ứng dụng
+COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "App.dll"]

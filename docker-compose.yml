@@ -1,13 +1,13 @@
 version: '3.8'
-
 services:
   trilux-app:
     build: .
     container_name: trilux-app
     ports:
-      - "8080:8080"
+      - "80:80"
+      - "443:443"
     volumes:
-      - /root/TriLux/ssl:/app/ssl
+      - ./ssl:/app/ssl
     depends_on:
       - sqlserver
     environment:
@@ -15,7 +15,6 @@ services:
       - DOTNET_USE_POLLING_FILE_WATCHER=1
       - ConnectionStrings__DefaultConnection=Data Source=sqlserver,1433; Initial Catalog=AppDbContext; User ID=SA;Password=Password123;Encrypt=True;TrustServerCertificate=True
     restart: always
-
   sqlserver:
     image: mcr.microsoft.com/mssql/server:2017-latest
     container_name: trilux-db
@@ -23,15 +22,14 @@ services:
       - "1433:1433"
     environment:
       SA_PASSWORD: "Password123"
-      ACCEPT_EULA: "Y"
-      MSSQL_MEMORY_LIMIT_MB: "512" 
+      ACCEPT_EULA: "Y" 
     volumes:
       - sql_data:/var/opt/mssql
     healthcheck:
-      test: ["CMD", "/opt/mssql-tools/bin/sqlcmd", "-S", "localhost", "-U", "SA", "-P", "Password123", "-Q", "SELECT 1"]
+      test: ["CMD-SHELL", "sqlcmd -Q 'SELECT 1'"]
       interval: 10s
-      retries: 5
-      start_period: 30s
+      timeout: 5s
+      retries: 3
 
 volumes:
   sql_data:
