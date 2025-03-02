@@ -7,7 +7,7 @@ services:
       - "80:80"
       - "443:443"
     volumes:
-      - ./ssl:/app/ssl
+      - /root/Trilux:/app/ssl
     depends_on:
       - sqlserver
     environment:
