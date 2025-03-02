@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.WebHost.UseUrls("http://*:8080");
+// builder.WebHost.UseUrls("http://*:8080");
 builder.Services.AddDbContext<AppDbContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddCors(options =>
@@ -42,14 +42,14 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 //config npm
 var nodeModulesPath = Path.Combine(Directory.GetCurrentDirectory(), "ReactApp/node_modules");
-if (Directory.Exists(nodeModulesPath))
-{
-    app.UseStaticFiles(new StaticFileOptions
-    {
-        FileProvider = new PhysicalFileProvider(nodeModulesPath),
-        RequestPath = new PathString("/vendor")
-    });
-}
+// if (Directory.Exists(nodeModulesPath))
+// {
+//     app.UseStaticFiles(new StaticFileOptions
+//     {
+//         FileProvider = new PhysicalFileProvider(nodeModulesPath),
+//         RequestPath = new PathString("/vendor")
+//     });
+// }
 //
 
 app.UseRouting();

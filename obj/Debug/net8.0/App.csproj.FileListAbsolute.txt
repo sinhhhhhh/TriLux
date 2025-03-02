@@ -301,3 +301,10 @@ D:\TriLux\App\obj\Debug\net8.0\ref\App.dll
 D:\TriLux\App\bin\Debug\net8.0\ReactApp\package.json
 D:\TriLux\App\bin\Debug\net8.0\ReactApp\package-lock.json
 D:\TriLux\App\obj\Debug\net8.0\App.sourcelink.json
+D:\TriLux\App\bin\Debug\net8.0\app\publish\web.config
+D:\TriLux\App\bin\Debug\net8.0\app\publish\App.deps.json
+D:\TriLux\App\bin\Debug\net8.0\app\publish\App.runtimeconfig.json
+D:\TriLux\App\bin\Debug\net8.0\app\publish\appsettings.Development.json
+D:\TriLux\App\bin\Debug\net8.0\app\publish\appsettings.json
+D:\TriLux\App\bin\Debug\net8.0\app\publish\ReactApp\package-lock.json
+D:\TriLux\App\bin\Debug\net8.0\app\publish\ReactApp\package.json
