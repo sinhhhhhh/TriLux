@@ -38,6 +38,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/TriLux/App/Views/DbContext/DeleteDb.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGJDb250ZXh0XERlbGV0ZURiLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/TriLux/App/Views/DbContext/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGJDb250ZXh0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/TriLux/App/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

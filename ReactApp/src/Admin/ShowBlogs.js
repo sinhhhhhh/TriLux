@@ -17,7 +17,7 @@ const ShowBlogs = () => {
 
   const fetchBlogs = async () => {
     try {
-      const response = await fetch("https://localhost:5001/api/blog");
+      const response = await fetch("https://103.109.37.95:8091/api/blog");
       const data = await response.json();
       setBlogs(data);
     } catch (error) {
@@ -40,7 +40,7 @@ const ShowBlogs = () => {
 
       try {
         const response = await fetch(
-          "https://localhost:5001/api/blog/upload-avatar",
+          "https://103.109.37.95:8091/api/blog/upload-avatar",
           {
             method: "POST",
             body: formData,
@@ -71,8 +71,8 @@ const ShowBlogs = () => {
     try {
       const response = await fetch(
         editingId
-          ? `https://localhost:5001/api/blog/${editingId}`
-          : "https://localhost:5001/api/blog",
+          ? `https://103.109.37.95:8091/api/blog/${editingId}`
+          : "https://103.109.37.95:8091/api/blog",
         {
           method: editingId ? "PUT" : "POST",
           headers: { "Content-Type": "application/json" },
@@ -106,7 +106,7 @@ const ShowBlogs = () => {
 
     try {
       const response = await fetch(
-        "https://localhost:5001/api/blog/upload-avatar",
+        "https://103.109.37.95:8091/api/blog/upload-avatar",
         {
           method: "POST",
           body: formData,
@@ -137,9 +137,12 @@ const ShowBlogs = () => {
     if (!window.confirm("Bạn có chắc muốn xóa blog này không?")) return;
 
     try {
-      const response = await fetch(`https://localhost:5001/api/blog/${id}`, {
-        method: "DELETE",
-      });
+      const response = await fetch(
+        `https://103.109.37.95:8091/api/blog/${id}`,
+        {
+          method: "DELETE",
+        }
+      );
 
       if (response.ok) {
         alert("Xóa thành công!");
@@ -208,7 +211,7 @@ const ShowBlogs = () => {
           <li key={blog.id} style={{ display: "flex", alignItems: "center" }}>
             <img
               src={
-                `https://localhost:5001${blog.avatar}` ||
+                `https://103.109.37.95:8091${blog.avatar}` ||
                 "https://via.placeholder.com/100"
               }
               alt="Avatar"

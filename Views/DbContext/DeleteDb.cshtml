@@ -1,0 +1,21 @@
+@inject AppDbContext dbContext
+@using Microsoft.EntityFrameworkCore
+@using System.Data
+
+@{
+    ViewData["Title"] = "Thông tin Database";
+    var connect = dbContext.Database.GetDbConnection();
+    var dbname = connect.Database;
+    var can_connect = dbContext.Database.CanConnect();
+}
+
+<h1>@ViewData["Title"]</h1>
+<p class="alert alert-danger">
+    Có chắc chắn xóa
+</p>
+<form method="post">
+    <button type="submit" class="btn btn-danger">Xóa</button>
+
+    <hr>
+    <a asp-action="Index">Quản lý Database"</a>
+</form>

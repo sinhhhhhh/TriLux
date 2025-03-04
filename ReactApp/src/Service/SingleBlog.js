@@ -8,7 +8,7 @@ const SingleBlog = () => {
   const [blog, setBlog] = useState(null);
 
   useEffect(() => {
-    fetch(`https://localhost:5001/api/blog/${blogId}`)
+    fetch(`https://103.109.37.95:8091/api/blog/${blogId}`)
       .then((response) => response.json())
       .then((data) => setBlog(data))
       .catch((error) => console.error("Lỗi khi tải blog:", error));

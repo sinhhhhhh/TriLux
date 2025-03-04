@@ -9,7 +9,7 @@ const Staging = () => {
   const [blogs, setBlogs] = useState([]);
 
   useEffect(() => {
-    fetch("https://localhost:5001/api/blog?category=Staging")
+    fetch("https://103.109.37.95:8091/api/blog?category=Staging")
       .then((response) => response.json())
       .then((data) => setBlogs(data))
       .catch((error) => console.error("Lỗi khi tải danh sách blog:", error));
@@ -29,7 +29,7 @@ const Staging = () => {
             <img
               src={
                 blog.avatar
-                  ? `https://localhost:5001${blog.avatar}`
+                  ? `https://103.109.37.95:8091${blog.avatar}`
                   : "https://via.placeholder.com/300"
               }
               alt="Blog Avatar"

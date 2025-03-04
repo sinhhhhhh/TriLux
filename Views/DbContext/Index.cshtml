@@ -1,0 +1,47 @@
+@inject AppDbContext dbContext
+@using Microsoft.EntityFrameworkCore
+@using System.Data
+
+@{
+    ViewData["Title"] = "Thông tin Database";
+    var connect = dbContext.Database.GetDbConnection();
+    var dbname = connect.Database;
+    var can_connect = dbContext.Database.CanConnect();
+    var message = TempData["StatusMessage"] as string;
+}
+@if (!string.IsNullOrEmpty(message))
+{
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        @message
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+}
+
+<h2>thông tin</h2>
+
+@foreach (var mig in dbContext.Database.GetAppliedMigrations())
+{
+    <p>@mig</p>
+}
+@foreach (var mig in dbContext.Database.GetPendingMigrations())
+{
+    <p>@mig (pending)</p>
+}
+@if (!can_connect)
+{
+    <p>Không thể kết nối đến database</p>
+}
+@if (dbContext.Database.GetPendingMigrations().Any())
+{
+    <form method="post">
+        <button class="btn btn-danger" asp-action="Migrate">Tạo Database</button>
+    </form>
+}
+
+@if (can_connect)
+{
+    <p>Đã kết nối đến database: @dbname</p>
+    <a class="btn btn-danger" asp-action="DeleteDb">Xóa Database:a @dbname</a>
+}

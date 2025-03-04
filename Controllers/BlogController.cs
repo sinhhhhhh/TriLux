@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using App.Models;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
@@ -36,6 +37,7 @@ public class BlogController : ControllerBase
     }
 
     [HttpPut("{id}")]
+    [Authorize]
     public async Task<IActionResult> UpdateBlog(int id, [FromBody] Blog blog)
     {
         if (id != blog.Id) return BadRequest();
@@ -44,6 +46,7 @@ public class BlogController : ControllerBase
         return Ok(blog);
     }
     [HttpDelete("{id}")]
+    [Authorize]
     public async Task<IActionResult> DeleteBlog(int id)
     {
         var blog = await _context.Blogs.FindAsync(id);
@@ -53,6 +56,7 @@ public class BlogController : ControllerBase
         return Ok();
     }
     [HttpPost]
+    [Authorize]
     public async Task<ActionResult<Blog>> CreateBlog(Blog blog)
     {
         if (blog == null || string.IsNullOrEmpty(blog.Content))
@@ -65,6 +69,7 @@ public class BlogController : ControllerBase
         return CreatedAtAction(nameof(GetBlogs), new { id = blog.Id }, blog);
     }
     [HttpPost("upload-avatar")]
+    [Authorize]
     public async Task<IActionResult> UploadAvatar(IFormFile file)
     {
         if (file == null || file.Length == 0)
